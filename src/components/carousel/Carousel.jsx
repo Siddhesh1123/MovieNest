@@ -14,7 +14,7 @@ import PosterFallback from "../../assets/no-poster.png";
 import Genres from "../genres/Genres";
 
 import "./style.scss";
-import Img from "../lazyLoadImage/Img";
+import Img from "../loadImg/Imgload";
 
 const Carousel = ({ data, loading,endpoint ,title}) => {
   const carouselContainer = useRef();
