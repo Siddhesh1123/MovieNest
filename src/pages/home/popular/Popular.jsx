@@ -5,7 +5,7 @@ import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 
 
 import useFetch from "../../../hooks/useFetch";
-import SwitchTabs from "../../../components/switchTabs/switchTabs";
+import SwitchTabs from "../../../components/switchTabs/SwitchTabs";
 
 const Popular = () => {
     const [endpoint, setEndpoint] = useState("movie");
