@@ -5,9 +5,10 @@ import { useSelector } from "react-redux";
 
 import "./style.scss";
 import Img from "../loadImg/Imgload";
-import CircleRating from "../circleRating/CircleRating";
+
 import Genres from "../genres/Genres";
 import PosterFallback from "../../assets/no-poster.png";
+import CircleRating from "../circleRating/CircleRatings";
 
 const MovieCard = ({ data, fromSearch, mediaType }) => {
     const { url } = useSelector((state) => state.home);

@@ -8,12 +8,13 @@ import "./style.scss";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
 import Genres from "../../../components/genres/Genres";
-import CircleRating from "../../../components/circleRating/CircleRating";
+
 
 import PosterFallback from "../../../assets/no-poster.png";
 import { Playbtn } from "../Playbtn";
 import Img from "../../../components/loadImg/Imgload";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
+import CircleRating from "../../../components/circleRating/CircleRatings";
 
 const DetailsBanner = ({ video, crew }) => {
     const [show, setShow] = useState(false);

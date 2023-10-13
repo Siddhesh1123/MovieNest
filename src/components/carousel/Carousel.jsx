@@ -9,7 +9,7 @@ import dayjs from "dayjs";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 Img
-import CircleRating from "../circleRating/CircleRating";
+import CircleRating from "../circleRating/CircleRatings";
 import PosterFallback from "../../assets/no-poster.png";
 import Genres from "../genres/Genres";
 
