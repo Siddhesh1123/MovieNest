@@ -3,6 +3,7 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
+import {BsFillArrowRightCircleFill} from "react-icons/bs"
 
 import "./style.scss";
 
@@ -57,6 +58,12 @@ const Header = () => {
       },1000)
     }
   };
+   const searchButton = () => {
+    navigate(`/search/${query}`);
+      setTimeout(() => {
+        setShowSearch(false);
+      },1000)
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -102,6 +109,7 @@ const Header = () => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchQueryHandler}
             />
+            <BsFillArrowRightCircleFill className="arrowsearch" onClick={searchButton}/>
             <VscChromeClose onClick={() => setShowSearch(false)} />
           </div>
         </ContentWrapper>
