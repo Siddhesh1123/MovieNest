@@ -4,6 +4,7 @@ import { fetchDataFromApi } from "./utlis/api.js";
 import { getApiConfigurations ,getGenres } from "./store/homeSlice.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+
 //compontens
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
